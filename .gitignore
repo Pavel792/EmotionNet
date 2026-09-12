@@ -1,0 +1,50 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Датасеты (ВАЖНО!)
+dataset/
+ref-db-aligned/
+emotions/
+*.zip
+*.tar.gz
+*.h5
+*.csv
+
+# Веса моделей (большие файлы)
+weights/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Ноутбуки
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Логи
+runs/
+logs/
+wandb/
+*.log
+
+# Модели 
+best_models/
+
+# .py файлы
+AllAttentionsNet.py
+320241_neuro.py
+*neuro.py
+test.py
